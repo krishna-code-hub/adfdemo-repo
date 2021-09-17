@@ -1,0 +1,9 @@
+{
+	"name": "adfaccount1141",
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e935bcc9-2aa6-4204-99ba-28ef36de9206",
+		"tenantId": "a84f5315-ff31-4372-99ee-872931807e96"
+	}
+}
