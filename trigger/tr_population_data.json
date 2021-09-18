@@ -1,0 +1,17 @@
+{
+	"name": "tr_population_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/population/blobs/population_by_age.tsv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/b4d08a5c-a71d-4c8a-87e2-2800e6f67d07/resourceGroups/adfdemo_rg/providers/Microsoft.Storage/storageAccounts/adfinputsa1141",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
