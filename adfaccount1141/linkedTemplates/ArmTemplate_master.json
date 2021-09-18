@@ -19,6 +19,10 @@
 			"type": "string",
 			"defaultValue": "https://adfstorageacct1141.dfs.core.windows.net"
 		},
+		"tr_population_data_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/b4d08a5c-a71d-4c8a-87e2-2800e6f67d07/resourceGroups/adfdemo_rg/providers/Microsoft.Storage/storageAccounts/adfinputsa1141"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -54,6 +58,9 @@
 					},
 					"ls_adls_covidreportingdl_properties_typeProperties_url": {
 						"value": "[parameters('ls_adls_covidreportingdl_properties_typeProperties_url')]"
+					},
+					"tr_population_data_properties_typeProperties_scope": {
+						"value": "[parameters('tr_population_data_properties_typeProperties_scope')]"
 					}
 				}
 			},

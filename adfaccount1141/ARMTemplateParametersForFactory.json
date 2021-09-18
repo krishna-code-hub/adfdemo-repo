@@ -13,6 +13,9 @@
 		},
 		"ls_adls_covidreportingdl_properties_typeProperties_url": {
 			"value": "https://adfstorageacct1141.dfs.core.windows.net"
+		},
+		"tr_population_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/b4d08a5c-a71d-4c8a-87e2-2800e6f67d07/resourceGroups/adfdemo_rg/providers/Microsoft.Storage/storageAccounts/adfinputsa1141"
 		}
 	}
 }
